@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+    <servlet>
+        <servlet-name>SwaggerServlet</servlet-name>
+        <servlet-class>
+            io.swagger.v3.jaxrs2.integration.OpenApiServlet
+        </servlet-class>
+        <!-- Le indicamos en que paquete están los servicios REST-->
+        <init-param>
+            <param-name>openApi.configuration.resourcePackages</param-name>
+            <param-value>api</param-value>
+        </init-param>
+        <!-- Paquete de servicios REST -->
+        <load-on-startup>2</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SwaggerServlet</servlet-name>
+        <url-pattern>/doc/*</url-pattern>
+    </servlet-mapping>
+</web-app>
