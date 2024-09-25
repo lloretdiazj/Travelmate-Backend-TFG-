@@ -14,5 +14,5 @@ TravelMate es una aplicación de proyecto de fin de curso de DAM en IES Doctr Ba
 
 
 ![Alt text](./img/swagger.png?raw=true "Captura 1")
-![Alt text](./img/swagger1.png?raw=true "Captura 1")
-![Alt text](./img/swagger2.png?raw=true "Captura 1")
+![Alt text](./img/Swagger1.png?raw=true "Captura 1")
+![Alt text](./img/Swagger2.png?raw=true "Captura 1")
