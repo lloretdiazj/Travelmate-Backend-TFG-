@@ -11,7 +11,7 @@
       <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/tmate?zeroDateTimeBehavior=CONVERT_TO_NULL&amp;autoReconnect=true&amp;useSSL=false&amp;serverTimezone=UTC"/>
       <property name="jakarta.persistence.jdbc.user" value="uremoto"/>
       <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
-      <property name="jakarta.persistence.jdbc.password" value="686278952_"/>
+      <property name="jakarta.persistence.jdbc.password" value=""/>
       <property name="eclipselink.logging.level" value="OFF"/>
     </properties>
   </persistence-unit>
